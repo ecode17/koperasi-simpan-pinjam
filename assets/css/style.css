@@ -1,3 +1,28 @@
+body{
+    font-family:sans-serif;
+}
+
+h1{
+    letter-spacing: 1px;
+}
+
+h2{
+    letter-spacing: 1px;
+}
+
+h3{
+    letter-spacing: 1px;
+}
+
+h4{
+    letter-spacing: 1px;
+}
+
+h5{
+    letter-spacing: 1px;
+}
+
+
 .navbar{
     transition: background-color 0.3s ease;
 }
@@ -27,6 +52,13 @@
     display: flex;
     height: 100%;
     flex-direction: column;
+}
+
+.btn-get-started{
+    color: white;
+    background-color: #127369;
+    padding: 15px 40px 15px 40px;
+    border-radius: 1000px;
 }
 
 .icon-s1 {
@@ -72,10 +104,6 @@
     justify-content: space-between;
 }
 
-.fitur-bawah{
-    margin-top: auto;
-}
-
 .fitur{
     background-color: white;
     padding: 8px;
@@ -100,20 +128,39 @@
     flex-direction: column;
 }
 
-.judul-kelola{
+.judul-kelola {
     justify-content: center;
     align-items: center;
     text-align: center;
 }
 
-.index-kelola{
+.index-kelola {
     padding-top: 90px;
 }
 
-.item-kelola{
-    padding: 20px;
-    background-color: rgba(18, 115, 105, 0.3);
+.item-kelola {
+    background-color: rgba(18, 115, 105, 0.1);
 }
+
+.accordion-button {
+    background-color: rgba(18, 115, 105, 0.1);
+    font-weight: bold;
+    border: none;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #000;
+    background-color: rgba(18, 115, 105, 0.1);
+}
+
+.accordion-body {
+    background-color: rgba(18, 115, 105, 0.1);
+}
+
 
 .teks-s4-right{
     justify-content: center;
