@@ -116,6 +116,20 @@ h5 {
         width: 100%;
         height: auto;
     }
+    .section-title{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .section{
+        padding: 0% !important;
+    }
+
+    .kanan-s5, .kiri-s5{
+        text-align: justify !important;
+    }
+    
 }
 
 
@@ -230,6 +244,16 @@ h5 {
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
 }
 
+.bg-aman {
+    border-radius: 70px 20px 70px 20px;
+    box-shadow: 8px 8px 20px rgba(18, 115, 105, 0.2);
+    margin: 20px;
+}
+
+.teks-s3{
+    text-align: justify;
+}
+
 .judul-kelola {
     justify-content: center;
     align-items: center;
@@ -247,7 +271,6 @@ h5 {
 .accordion-button {
     background-color: rgba(18, 115, 105, 0.1);
     font-weight: bold;
-    border: none;
 }
 
 .accordion-button:focus {
@@ -255,7 +278,6 @@ h5 {
 }
 
 .accordion-button:not(.collapsed) {
-    color: #000;
     background-color: rgba(18, 115, 105, 0.1);
 }
 
@@ -282,21 +304,12 @@ h5 {
     flex-direction: column;
 }
 
-
-.icon-manajemen {
-    padding: 50px;
+.kanan-s5{
+    text-align: left;
 }
 
-.desk-manajemen {
-    padding: 50px;
-    justify-content: center;
-    align-items: center;
-}
-
-.judul-manajemen {
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+.kiri-s5{
+    text-align: right;
 }
 
 .solusi-akuntansi {
@@ -398,25 +411,6 @@ h5 {
     background-color: rgba(0, 0, 0, 0.1);
 }
 
-.alamat {
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-.teks-alamat {
-    justify-content: start;
-    align-items: flex-start;
-    text-align: left;
-    display: flex;
-    height: 100%;
-    flex-direction: column;
-}
-
-.social-media {
-    padding-right: 15px;
-}
-
-.icon-footer {
-    padding-top: 10px;
-    padding-bottom: 5px;
+.teks-footer{
+    text-align: justify;
 }
