@@ -24,7 +24,7 @@ h5 {
 
 @media (max-width: 430px) {
     .hero {
-        background: linear-gradient(to top, white 30%, rgba(255, 255, 255, 0.1) 50%), url('/assets/img/bg.jpeg') no-repeat !important;
+        background: linear-gradient(to top, white 30%, rgba(255, 255, 255, 0.1) 50%), url('./assets/img/bg.jpeg') no-repeat !important;
     }
 
     .hero-content {
