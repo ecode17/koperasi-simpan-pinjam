@@ -82,14 +82,6 @@ h5 {
         margin-bottom: 0px;
     }
 
-    .fitur-kiri{
-        text-align: right;
-    }
-
-    .fitur-kanan{
-        text-align: left;
-    }
-
     .fitur {
         flex-direction: row;
         padding: 0px;
@@ -127,12 +119,13 @@ h5 {
     }
 
     .kanan-s5, .kiri-s5{
-        text-align: justify !important;
+        text-align: center !important;
     }
-    
+
+    .card-solusi {
+        animation: scrollLeft 10s linear infinite;
+    }
 }
-
-
 
 .navbar {
     transition: background-color 0.3s ease;
@@ -312,58 +305,36 @@ h5 {
     text-align: right;
 }
 
-.solusi-akuntansi {
-    background-color: #127369;
-    border-radius: 30px;
-    margin-bottom: 100px;
-    padding: 0px 30px 0px 30px;
-}
-
-.kiri {
-    padding-right: 50px;
-}
-
-.kanan {
-    padding-left: 50px;
-}
-
-.item-solusi {
+.card-solusi{
     background-color: white;
-    margin-bottom: 20px;
-    border-radius: 5px;
-    padding-left: 10px;
-    display: flex;
-    align-items: stretch;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 0%;
+    animation: scrollUp 10s linear infinite;
 }
 
-.bg-solusi {
-    position: relative;
+.scrolling-cards {
     overflow: hidden;
+    position: relative;
+    height: 300px;
 }
 
-.bg-solusi img {
-    width: 100%;
-    border-radius: 0 5px 5px 0;
+@keyframes scrollUp {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(-100%);
+    }
 }
 
-.bg-solusi::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(to left, rgba(255, 255, 255, 0.4), white);
-    border-radius: 0 5px 5px 0;
-    pointer-events: none;
-}
-
-.teks-solusi {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    padding-top: 20px;
+@keyframes scrollLeft {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
 }
 
 .teks-s6 {
