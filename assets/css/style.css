@@ -125,6 +125,13 @@ h5 {
     .card-solusi {
         animation: scrollLeft 10s linear infinite;
     }
+
+    .scrolling-cards {
+        height: 100px;
+    }
+    .card-content{
+        padding: 2px 15px 2px 2px !important;
+    }
 }
 
 .navbar {
@@ -305,12 +312,69 @@ h5 {
     text-align: right;
 }
 
-.card-solusi{
+.solusi{
+    background-color: #127369;
+    padding: 30px;
+    border-radius: 20px;
+    color: white;
+}
+
+.card-solusi {
     background-color: white;
-    border: 1px solid black;
-    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
     padding: 0%;
+    margin: 10px;
     animation: scrollUp 10s linear infinite;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    color: black;
+}
+.card-solusi:hover {
+    transform: scale(1);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-solusi img {
+    border-radius: 10px;
+}
+
+.card-solusi p {
+    font-size: 14px;
+}
+
+.card-bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -2;
+}
+
+.card-solusi::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, white 40%, rgb(255, 255, 255, 0.1) 70%);
+    border-radius: 10px;
+    z-index: -1;
+}
+
+.card-content{
+    z-index: 1;
+    padding: 20px 50px 20px 20px;
+}
+
+.solusi-kanan{
+    padding-left: 50px;
+}
+
+.solusi-kiri{
+    padding-right: 50px;
 }
 
 .scrolling-cards {
@@ -321,19 +385,10 @@ h5 {
 
 @keyframes scrollUp {
     0% {
-        transform: translateY(100%);
+        transform: translateY(120%);
     }
     100% {
-        transform: translateY(-100%);
-    }
-}
-
-@keyframes scrollLeft {
-    0% {
-        transform: translateX(100%);
-    }
-    100% {
-        transform: translateX(-100%);
+        transform: translateY(-130%);
     }
 }
 
