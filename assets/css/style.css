@@ -437,6 +437,35 @@ h5 {
     background-color: rgba(0, 0, 0, 0.1);
 }
 
-.teks-footer{
+.teks-footer p {
+    line-height: 1.8;
+    font-size: 16px;
+    margin-bottom: 20px;
     text-align: justify;
+}
+
+.footer-title {
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.tag ul li {
+    margin-bottom: 8px;
+    font-size: 15px;
+    position: relative;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+.tag ul li::before {
+    content: '•';
+    margin-right: 10px;
+}
+
+.tag ul li a {
+    text-decoration: none;
+    position: relative;
+}
+.tag ul li a:hover {
+    text-decoration: underline;
 }
