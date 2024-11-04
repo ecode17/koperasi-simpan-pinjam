@@ -329,6 +329,14 @@ h5 {
     animation: scrollUp 10s linear infinite;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     color: black;
+    width: 100%;
+    max-width: 300px;
+    height: 80px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 .card-solusi:hover {
     transform: scale(1);
@@ -386,10 +394,13 @@ h5 {
 
 @keyframes scrollUp {
     0% {
-        transform: translateY(120%);
+        transform: translateY(0%);
+    }
+    50% {
+        transform: translateY(-100%);
     }
     100% {
-        transform: translateY(-130%);
+        transform: translateY(0%);
     }
 }
 
