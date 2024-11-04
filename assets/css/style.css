@@ -115,7 +115,7 @@ h5 {
     }
 
     .section{
-        padding: 0% !important;
+        padding: 10% !important;
     }
 
     .kanan-s5, .kiri-s5{
@@ -150,6 +150,10 @@ h5 {
 .navbar.scrolled {
     background-color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.judul{
+    text-align: center;
 }
 
 .section {
@@ -304,12 +308,8 @@ h5 {
     flex-direction: column;
 }
 
-.kanan-s5{
-    text-align: left;
-}
-
-.kiri-s5{
-    text-align: right;
+.teks-manajemen{
+    text-align: justify;
 }
 
 .solusi{
