@@ -402,3 +402,7 @@
 .button-transparansi .btn.active {
     background-color: rgba(0, 0, 0, 0.1);
 }
+
+footer{
+    text-align: justify;
+}
