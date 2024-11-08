@@ -100,6 +100,10 @@
         align-items: center;
     }
 
+    .item-transparansi{
+        flex-direction: column !important;
+    }
+
     .button-transparansi .btn {
         padding: 10px 15px !important;
     }
@@ -364,6 +368,12 @@
     margin-top: 100px;
     padding-top: 50px;
     padding-bottom: 50px;
+}
+
+.item-transparansi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .icon-transparansi img{
