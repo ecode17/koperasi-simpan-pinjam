@@ -216,10 +216,27 @@
 
 .text-aman-dan-terpercaya{
     text-align: justify;
+    padding: 20px;
 }
 
 .icon-nabung-dari-sekarang img{
     width: 100%;
+}
+
+.accordion-button{
+    color: black;
+    background-color: #B1CECB;
+    font-weight: 600;
+}
+
+.accordion-button:not(.collapsed) {
+    color: black;
+    background-color: #B1CECB;
+    font-weight: 600;
+}
+
+.accordion-collapse{
+    color: black;
 }
 
 .item-manajemen-koperasi{
@@ -406,4 +423,58 @@
 footer{
     padding-top: 100px;
     text-align: justify;
+}
+
+.section-paket{
+    background: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(18, 115, 105, 0.3));
+    padding-top: 70px;
+}
+
+.card-paket{
+    background-color: white;
+    width: 250px;
+    height: 450px;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.text-paket h2{
+    text-align: center;
+    font-weight: 800;
+    color: #127369;
+}
+
+.text-paket h3{
+    text-align: center;
+    font-weight: 600;
+    color: #127369;
+}
+
+.text-paket p{
+    text-align: center;
+    color: #127369;
+}
+
+.text-paket .icon-paket{
+    text-align: center !important;
+    color: #127369;
+}
+
+.item-paket{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-paket li::before {
+    content: "✅";
+    left: 0;
+}
+
+.text-paket h3, .text-paket h2, .text-paket p, .text-paket ul {
+    margin: 0;
 }

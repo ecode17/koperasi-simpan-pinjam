@@ -34,7 +34,7 @@ window.onload = function() {
 
 
 document.addEventListener("DOMContentLoaded", function () {
-    if (window.innerWidth < 768) {
+    if (window.innerWidth <= 768) {
         document.querySelectorAll(".footer-title").forEach(function (title) {
             title.addEventListener("click", function () {
                 const targetId = title.nextElementSibling.id;
