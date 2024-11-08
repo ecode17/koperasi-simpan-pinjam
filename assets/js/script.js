@@ -1,15 +1,5 @@
-window.addEventListener('scroll', function () {
-    const navbar = document.querySelector('.navbar');
-    if (navbar) { 
-        if (window.scrollY > 50) {
-            navbar.classList.add('scrolled');
-        } else {
-            navbar.classList.remove('scrolled');
-        }
-    }
-});
 function showContent(type, element) {
-    const content = document.getElementById("content");
+    const content = document.getElementById("isi");
     if (content) {
         if (type === "laporan") {
             content.innerHTML = `
@@ -28,7 +18,7 @@ function showContent(type, element) {
             `;
         }
     }
-    const buttons = document.querySelectorAll(".button-group .btn");
+    const buttons = document.querySelectorAll(".button-transparansi .btn");
     if (buttons) {
         buttons.forEach(btn => btn.classList.remove("active"));
         if (element) {
@@ -36,6 +26,12 @@ function showContent(type, element) {
         }
     }
 }
+
+window.onload = function() {
+    const firstButton = document.querySelector(".button-transparansi .btn");
+    showContent('laporan', firstButton);
+};
+
 
 document.addEventListener("DOMContentLoaded", function () {
     if (window.innerWidth < 768) {

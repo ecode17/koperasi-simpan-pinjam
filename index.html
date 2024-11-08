@@ -1,22 +1,21 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Koperasi Simpan Pinjam</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/coba.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg fixed-top">
-        <div class="container col-md-10 mt-2 mb-2">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+        <div class="container col-md-10">
             <a class="navbar-brand" href="/index.html">
-                <img src="./assets/img/slip.png" alt="" width="74">
+                <img src="./assets/img/slip.png" alt="" width="70px">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -29,7 +28,7 @@
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Kelola Koperasi</a>
+                        <a class="nav-link" aria-current="page" href="#">Paket</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="#">Aman</a>
@@ -47,87 +46,79 @@
                         <a class="nav-link" aria-current="page" href="#">Analisis</a>
                     </li>
                 </ul>
-                <div class="d-flex">
-                    <button class="btn btn-outline-success" type="submit">Masuk</button>
-                </div>
+                <button class="btn btn-outline-success d-flex" type="submit">Masuk</button>
             </div>
         </div>
     </nav>
     <div>
-        <section class="hero">
-            <img src="./assets/img/bg.jpeg" alt="Background Image" class="hero-bg">
-            <div class="hero-content container col-md-10">
-                <h2>Wujudkan Masa Depan Keuangan Anda Bersama SLIP</h2>
-                <h5>Simpan, Pinjam, Investasi, dan Raih Keuntungan dengan Mudah</h5>
-                <a href="#" class="cta-btn">Get Started</a>
+        <section class="section-1">
+            <img src="./assets/img/banner.jpeg" alt="" class="banner">
+            <div class="banner-text col-12">
+                <div class="container col-md-10">
+                    <h2>Wujudkan Masa Depan Keuangan Anda Bersama SLIP</h2>
+                    <p>Simpan, Pinjam, Investasi, dan Raih Keuntungan dengan Mudah</p>
+                    <button class="btn btn-outline-success active" type="submit">Get Started</button>
+                </div>
             </div>
         </section>
         <section class="section-2">
-            <div class="container col-md-10">
-                <div class="judul">
-                    <h2>Kelola Koperasi Simpan Pinjam Lebih Mudah</h2>
-                    <p>Tingkatkan keuntungan dan kepuasan anggota dengan solusi pengelolaan koperasi lebih cerdas</p>
-                </div>
-                <div class="kelola-koperasi row">
-                    <div class="fitur-kiri col-4">
-                        <div class="fitur row" data-aos="fade-right">
-                            <div class="col-8">
-                                <h5>Otomatisasi Proses</h5>
-                                <p>Menekankan kemudahan dan kecepatan dalam pengolahan data</p>
-                            </div>
-                            <div class="col-4">
-                                <img src="./assets/img/otomatisasi-proses.png" alt="" width="100%">
-                            </div>
-                        </div>
-                        <div class="fitur fitur-bawah row" data-aos="fade-right">
-                            <div class="col-8">
-                                <h5>Aksebilitas Mobile</h5>
-                                <p>Fleksibilitas dalam megelola koperasi</p>
-                            </div>
-                            <div class="col-4">
-                                <img src="./assets/img/aksebilitas-mobile.png" alt="" width="100%">
-                            </div>
-                        </div>
+            <div class="kelola-koperasi">
+                <div class="container col-md-10">
+                    <div class="judul">
+                        <h2>Kelola Koperasi Simpan Pinjam Lebih Mudah</h2>
+                        <p>Tingkatkan keuntungan dan kepuasan anggota dengan solusi pengelolaan koperasi lebih cerdas
+                        </p>
                     </div>
-                    <div class="col-4" data-aos="zoom-in">
-                        <img src="./assets/img/KelolaDataNasabah.png" alt="" width="100%">
-                    </div>
-                    <div class="fitur-kanan col-4">
-                        <div class="fitur row" data-aos="fade-left">
-                            <div class="col-4">
-                                <img src="./assets/img/transparansi-dan-akuntabilitas.png" alt="" width="100%">
+                    <div class="item-kelola-koperasi">
+                        <div class="col">
+                            <div class="card-kelola-koperasi">
+                                <img src="./assets/img/otomatisasi-proses.png" alt="" />
+                                <div class="text-kelola-koperasi">
+                                    <h5>Otomatisasi Proses</h5>
+                                    <p>Menekankan kemudahan dan kecepatan dalam pengolahan data</p>
+                                </div>
                             </div>
-                            <div class="col-8">
-                                <h5>Transparansi dan Akuntabilitas</h5>
-                                <p>Dapat meningkatkan kepercayaan anggota terhadap koperasi</p>
+                            <div class="card-kelola-koperasi">
+                                <img src="./assets/img/aksebilitas-mobile.png" alt="" />
+                                <div class="text-kelola-koperasi">
+                                    <h5>Aksebilitas Mobile</h5>
+                                    <p>Fleksibilitas dalam megelola koperasi</p>
+                                </div>
                             </div>
                         </div>
-                        <div class="fitur fitur-bawah row" data-aos="fade-left">
-                            <div class="col-4">
-                                <img src="./assets/img/integrasi-dengan-fitur-lain.png" alt="" width="100%">
+                        <div class="col">
+                            <img src="./assets/img/KelolaDataNasabah.png" alt="" class="icon-kelola-koperasi">
+                        </div>
+                        <div class="col">
+                            <div class="card-kelola-koperasi">
+                                <img src="./assets/img/transparansi-dan-akuntabilitas.png" alt="" />
+                                <div class="text-kelola-koperasi">
+                                    <h5>Transparansi dan Akuntabilitas</h5>
+                                    <p>Dapat meningkatkan kepercayaan anggota terhadap koperasi</p>
+                                </div>
                             </div>
-                            <div class="col-8">
-                                <h5>Integrasi Dengan Fitur Lain</h5>
-                                <p>Dapat disesuaikan dengan kebutuhan spesifik koperasi</p>
+                            <div class="card-kelola-koperasi">
+                                <img src="./assets/img/integrasi-dengan-fitur-lain.png" alt="" />
+                                <div class="text-kelola-koperasi">
+                                    <h5>Integrasi Dengan Fitur Lain</h5>
+                                    <p>Dapat disesuaikan dengan kebutuhan spesifik koperasi</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="section improved-section">
+        <section class="section">
             <div class="container col-md-10">
-                <div class="row align-items-center">
-                    <div class="col-12 col-md-5 text-center text-md-left" data-aos="zoom-in">
-                        <img src="./assets/img/aman.png" alt="Aman dan Terpercaya" class="bg-aman img-fluid"
-                            width="80%">
+                <div class="aman-dan-terpercaya row">
+                    <div class="icon-aman-dan-terpercaya col-12 col-md-5">
+                        <img src="./assets/img/aman.png" alt="">
                     </div>
                     <div class="col-12 col-md-7">
-                        <div class="teks-s3">
-                            <h2 class="section-title">Aman dan Terpercaya</h2>
-                            <p class="section-description">
-                                Ketenangan Anda adalah prioritas utama kami. Simpan dan pinjam dengan aman dan
-                                terpercaya
+                        <div class="text-aman-dan-terpercaya">
+                            <h2>Aman & Terpercaya</h2>
+                            <p>Ketenangan Anda adalah prioritas utama kami. Simpan dan pinjam dengan aman dan terpercaya
                                 bersama [Nama Koperasi Anda]. Nikmati kemudahan transaksi dengan sistem keamanan
                                 berlapis yang melindungi data Anda. Transparansi setiap proses, diawasi oleh lembaga
                                 yang kredibel, serta dukungan dari ribuan anggota yang puas menjadi bukti komitmen kami.
@@ -137,64 +128,54 @@
                 </div>
             </div>
         </section>
-
         <section class="section">
             <div class="container col-md-10">
                 <div class="judul">
-                    <h2>Nabung Dari Sekarang, Nikmatnya di Kemudian Hari</h2>
+                    <h2>Nabung dari Sekarang, Nikmatnya di Kemudian Hari!</h2>
                     <p>Bosan gaji habis? Yuk, mulai menabung agar masa depanmu lebih cerah. Ini akan memberikan
                         tips-tips mudah untuk memulai kebiasaan menabung, meskipun dengan penghasilan pas-pasan.</p>
                 </div>
                 <div class="row align-items-center">
-                    <div class="col-12 col-md-7 order-md-2" data-aos="fade-left">
-                        <img src="./assets/img/Tambah Data Nasabah-2.png" alt="" width="100%">
+                    <div class="icon-nabung-dari-sekarang col-12 col-md-7 order-md-2" data-aos="fade-left">
+                        <img src="./assets/img/Tambah Data Nasabah-2.png" alt="">
                     </div>
                     <div class="col-12 col-md-5 order-md-1">
-                        <div class="accordion" data-aos="fade-right">
-                            <div class="accordion-item item-kelola">
-                                <h2 class="accordion-header" id="headingOne">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                                        Kelola Data Nasabah
-                                    </button>
-                                </h2>
-                                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
-                                    data-bs-parent="#kelolaAccordion">
-                                    <div class="accordion-body">
-                                        Pengelolaan data yang efektif sangat penting untuk meningkatkan efisiensi dan
-                                        akurasi dalam pengambilan keputusan bisnis.
-                                    </div>
+                        <div class="item-nabung-dari-sekarang">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true">
+                                    Kelola Data Nasabah
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse" aria-labelledby="headingOne">
+                                <div class="accordion-body">
+                                    <p>Pengelolaan data yang efektif sangat penting untuk meningkatkan efisiensi dan akurasi dalam pengambilan keputusan bisnis.</p>
                                 </div>
                             </div>
-                            <div class="accordion-item item-kelola">
-                                <h2 class="accordion-header" id="headingTwo">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        Kelola Pinjaman Nasabah
-                                    </button>
-                                </h2>
-                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                                    data-bs-parent="#kelolaAccordion">
-                                    <div class="accordion-body">
-                                        Mengelola pinjaman nasabah dengan transparansi dan akuntabilitas untuk
-                                        memastikan kelancaran pembayaran.
-                                    </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false">
+                                    Kelola Pinjaman Nasabah
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo">
+                                <div class="accordion-body">
+                                    <p>Mengelola pinjaman nasabah dengan transparansi dan akuntabilitas untuk kelancaran pembayaran.</p>
                                 </div>
                             </div>
-                            <div class="accordion-item item-kelola">
-                                <h2 class="accordion-header" id="headingThree">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseThree" aria-expanded="false"
-                                        aria-controls="collapseThree">
-                                        Kelola Tabungan Nasabah
-                                    </button>
-                                </h2>
-                                <div id="collapseThree" class="accordion-collapse collapse"
-                                    aria-labelledby="headingThree" data-bs-parent="#kelolaAccordion">
-                                    <div class="accordion-body">
-                                        Memastikan bahwa nasabah memiliki kemudahan dalam menabung dan mendapatkan
-                                        keuntungan sesuai harapan.
-                                    </div>
+                        </div>
+                        <div class="accordion-item item-kelola">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Kelola Tabungan Nasabah
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree">
+                                <div class="accordion-body">
+                                    <p>Memastikan bahwa nasabah memiliki kemudahan dalam menabung dan mendapatkan keuntungan sesuai harapan.</p>
                                 </div>
                             </div>
                         </div>
@@ -205,245 +186,250 @@
         <section class="section">
             <div class="container col-md-10">
                 <div class="judul">
-                    <h2>Manajemen Koperasim Yang Efisien</h2>
-                    <p>Salah satu kunci manajemen koperasi yang efisien adalah melibatkan seluruh anggota dalam pengambilan
-                        keputusan dan pelaksanaan program-program koperasi</p>
+                    <h2>Manajemen Koperasi yang Efisien</h2>
+                    <p>Salah satu kunci manajemen koperasi yang efisien adalah melibatkan seluruh anggota dalam
+                        pengambilan keputusan dan pelaksanaan program-program koperasi</p>
                 </div>
-                <div class="row align-items-center mb-5 teks-manajemen">
-                    <div class="col-md-6" data-aos="fade-right">
-                        <img src="./assets/img/tim.png" class="img-fluid" alt="Placeholder Image" width="80%">
+                <div class="item-manajemen-koperasi row">
+                    <div class="icon-manajemen-koperasi col-12 col-md-6">
+                        <img src="./assets/img/tim.png" alt="">
                     </div>
-                    <div class="col-md-6" data-aos="fade-left">
+                    <div class="text-manajemen-koperasi-kanan col-12 col-md-6">
                         <h3>Manajemen Anggota</h3>
                         <p>Pantau dan kelola data anggota dengan sistem yang terstruktur. Setiap anggota terdaftar
                             secara otomatis dengan informasi lengkap dan terbaru</p>
                         <ul class="list-unstyled">
-                            <li>✔️ Pendaftaran anggota baru</li>
-                            <li>✔️ Tabel anggota</li>
-                            <li>✔️ Status anggota</li>
+                            <li>Pendaftaran anggota baru</li>
+                            <li>Tabel anggota</li>
+                            <li>Status anggota</li>
                         </ul>
-                        <button type="button" class="btn btn-success">Detail</button>
+                        <div class="button">
+                            <button type="button" class="btn btn-success">Detail</button>
+                        </div>
                     </div>
                 </div>
-                <div class="row align-items-center mb-5 teks-manajemen">
-                    <div class="col-md-6 order-md-2" data-aos="fade-left">
-                        <img src="./assets/img/Finance-rafiki.png" class="img-fluid" alt="Placeholder Image"
-                            width="80%">
+                <div class="item-manajemen-koperasi row">
+                    <div class="icon-manajemen-koperasi col-12 col-md-6 order-md-2">
+                        <img src="./assets/img/tim.png" alt="">
                     </div>
-                    <div class="col-md-6 order-md-1" data-aos="fade-right">
-                        <h3>Manajemen Simpanan</h3>
-                        <p>Manajemen simpanan yang mudah dan aman. Akses semua detail simpanan anggota, baik simpanan
-                            wajib maupun sukarela</p>
+                    <div class="text-manajemen-koperasi-kiri col-12 col-md-6 order-md-1">
+                        <h3>Manajemen Anggota</h3>
+                        <p>Pantau dan kelola data anggota dengan sistem yang terstruktur. Setiap anggota terdaftar
+                            secara otomatis dengan informasi lengkap dan terbaru</p>
                         <ul class="list-unstyled">
-                            <li>✔️ Pendaftaran anggota baru</li>
-                            <li>✔️ Tabel anggota</li>
-                            <li>✔️ Status anggota</li>
+                            <li>Pendaftaran anggota baru</li>
+                            <li>Tabel anggota</li>
+                            <li>Status anggota</li>
                         </ul>
-                        <button type="button" class="btn btn-success">Detail</button>
+                        <div class="button">
+                            <button type="button" class="btn btn-success">Detail</button>
+                        </div>
                     </div>
                 </div>
-                <div class="row align-items-center mb-5 teks-manajemen">
-                    <div class="col-md-6" data-aos="fade-right">
-                        <img src="./assets/img/Cash Payment-bro-2.png" class="img-fluid" alt="Placeholder Image"
-                            width="80%">
+                <div class="item-manajemen-koperasi row">
+                    <div class="icon-manajemen-koperasi col-12 col-md-6">
+                        <img src="./assets/img/tim.png" alt="">
                     </div>
-                    <div class="col-md-6" data-aos="fade-left">
-                        <h3>Manajemen Pinjaman</h3>
-                        <p>Proses pengajuan pinjaman yang cepat dan transparan. Semua pinjaman tercatat dengan jadwal
-                            pembayaran dan bunga yang jelas</p>
+                    <div class="text-manajemen-koperasi-kanan col-12 col-md-6">
+                        <h3>Manajemen Anggota</h3>
+                        <p>Pantau dan kelola data anggota dengan sistem yang terstruktur. Setiap anggota terdaftar
+                            secara otomatis dengan informasi lengkap dan terbaru</p>
                         <ul class="list-unstyled">
-                            <li>✔️ Pendaftaran anggota baru</li>
-                            <li>✔️ Tabel anggota</li>
-                            <li>✔️ Status anggota</li>
+                            <li>Pendaftaran anggota baru</li>
+                            <li>Tabel anggota</li>
+                            <li>Status anggota</li>
                         </ul>
-                        <button type="button" class="btn btn-success">Detail</button>
-
+                        <div class="button">
+                            <button type="button" class="btn btn-success">Detail</button>
+                        </div>
                     </div>
                 </div>
-                <div class="row align-items-center mb-5 teks-manajemen">
-                    <div class="col-md-6 order-md-2" data-aos="fade-left">
-                        <img src="./assets/img/tim.png" class="img-fluid" alt="Placeholder Image" width="80%">
+                <div class="item-manajemen-koperasi row">
+                    <div class="icon-manajemen-koperasi col-12 col-md-6 order-md-2">
+                        <img src="./assets/img/tim.png" alt="">
                     </div>
-                    <div class="col-md-6 order-md-1" data-aos="fade-right">
-                        <h3>Manajemen Sisa Hasil Usaha</h3>
-                        <p>Sisa Hasil Usaha (SHU) dikelola dengan transparansi penuh. Bagikan keuntungan koperasi secara
-                            adil kepada anggota berdasarkan kontribusi mereka</p>
+                    <div class="text-manajemen-koperasi-kiri col-12 col-md-6 order-md-1">
+                        <h3>Manajemen Anggota</h3>
+                        <p>Pantau dan kelola data anggota dengan sistem yang terstruktur. Setiap anggota terdaftar
+                            secara otomatis dengan informasi lengkap dan terbaru</p>
                         <ul class="list-unstyled">
-                            <li>✔️ Pendaftaran anggota baru</li>
-                            <li>✔️ Tabel anggota</li>
-                            <li>✔️ Status anggota</li>
+                            <li>Pendaftaran anggota baru</li>
+                            <li>Tabel anggota</li>
+                            <li>Status anggota</li>
                         </ul>
-                        <button type="button" class="btn btn-success">Detail</button>
+                        <div class="button">
+                            <button type="button" class="btn btn-success">Detail</button>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section>
+        <section class="section">
             <div class="container col-md-10">
-                <div class="row solusi">
-                    <div class="col-12 col-md-5">
-                        <h2>Solusi Akuntansi Komprehensif untuk Bisnis Anda</h2>
-                        <p>Tingkatkan Profitabilitas Bisnis Anda dengan Akuntansi yang Akurat dan Efisien Akuntansi yang
-                            Akurat dan Efisien</p>
-                        <p>Selengkapnya</p>
-                    </div>
-                    <div class="col-12 col-md-7 scrolling-cards">
-                        <div class="row solusi-kiri">
-                            <div class="card-solusi col">
-                                <img src="./assets/img/close-up-view-african-man-s-hands-holding-plastic-credit-card-smartphone.jpg" alt="" class="card-bg">
-                                <p class="card-content">Pencatatan Transaksi Keuangan</p>
-                            </div>
-                            <div class="card-solusi col">
-                                <img src="./assets/img/reading-glasses-piles-coins-high-view.jpg" alt="" class="card-bg">
-                                <p class="card-content">Laporan Keuangan (Neraca Keuangan)</p>
-                            </div>
+                <div class="solusi-akutansi">
+                    <div class="row">
+                        <div class="judul-solusi-akutansi col-12 col-md-5">
+                            <h2>Solusi Akuntansi Komprehensif untuk Bisnis Anda</h2>
+                            <p>Tingkatkan Profitabilitas Bisnis Anda dengan Akuntansi yang Akurat dan Efisien Akuntansi yang
+                                Akurat dan Efisien</p>
+                            <a href="#">Selengkapnya</a>
                         </div>
-                        <div class="row solusi-kanan">
-                            <div class="card-solusi col">
-                                <img src="./assets/img/image.png" alt="" class="card-bg">
-                                <p class="card-content">Pengelolaan Buku Kas</p>
+                        <div class="item-solusi-akutansi col-12 col-md-7">
+                            <div class="item-solusi-akutansi-kiri row">
+                                <div class="card-solusi-akutansi col">
+                                    <p class="text-card">Pencatatan Transaksi Keuangan</p>
+                                    <img src="./assets/img/close-up-view-african-man-s-hands-holding-plastic-credit-card-smartphone.jpg" alt="">
+                                </div>
+                                <div class="card-solusi-akutansi col">
+                                    <p class="text-card">Laporan Keuangan (Neraca Keuangan)</p>
+                                    <img src="./assets/img/reading-glasses-piles-coins-high-view.jpg" alt="">
+                                </div>
                             </div>
-                            <div class="card-solusi col">
-                                <img src="./assets/img/image copy.png" alt="" class="card-bg">
-                                <p class="card-content">Manajemen Hutang dan Piutang</p>
+                            <div class="item-solusi-akutansi-kanan row">
+                                <div class="card-solusi-akutansi col">
+                                    <p class="text-card">Manajemen Hutang dan Piutang</p>
+                                    <img src="./assets/img/image.png" alt="">
+                                </div>
+                                <div class="card-solusi-akutansi col">
+                                    <p class="text-card">Pelacakan Inventaris</p>
+                                    <img src="./assets/img/image copy.png" alt="">
+                                </div>
                             </div>
-                        </div>
-                        <div class="row solusi-kiri">
-                            <div class="card-solusi col">
-                                <img src="./assets/img/image copy 2.png" alt="" class="card-bg">
-                                <p class="card-content">Pelacakan Inventaris</p>
+                            <div class="item-solusi-akutansi-kiri row">
+                                <div class="card-solusi-akutansi col">
+                                    <p class="text-card">Analisis dan Pelaporan Keuangan</p>
+                                    <img src="./assets/img/image copy 2.png" alt="">
+                                </div>
+                                <div class="card-solusi-akutansi col">
+                                    <p class="text-card">Analisis dan Pelaporan Keuangan</p>
+                                    <img src="./assets/img/image copy 3.png" alt="">
+                                </div>
                             </div>
-                            <div class="card-solusi col">
-                                <img src="./assets/img/image copy 3.png" alt="" class="card-bg">
-                                <p class="card-content">Analisis dan Pelaporan Keuangan</p>
-                            </div>
-                        </div>
-                        <div class="row solusi-kanan">
-                            <div class="card-solusi col">
-                                <img src="./assets/img/image copy 4.png" alt="" class="card-bg">
-                                <p class="card-content">Rekonsiliasi Bank</p>
-                            </div>
-                            <div class="card-solusi col">
-                                <img src="./assets/img/close-up-hands-counting-money.jpg" alt="" class="card-bg">
-                                <p class="card-content">Pengelolaan Anggaran dan Forecasting</p>
+                            <div class="item-solusi-akutansi-kanan row">
+                                <div class="card-solusi-akutansi col">
+                                    <p class="text-card">Rekonsiliasi Bank</p>
+                                    <img src="./assets/img/image copy 4.png" alt="">
+                                </div>
+                                <div class="card-solusi-akutansi col">
+                                    <p class="text-card">Pengelolaan Anggaran dan Forecasting</p>
+                                    <img src="./assets/img/close-up-hands-counting-money.jpg" alt="">
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-
-        <section class="section-6">
+        <section class="section-transparansi">
             <div class="container col-md-10">
                 <div class="row">
-                    <div class="col" data-aos="zoom-in">
-                        <img src="./assets/img/Desain tanpa judul-33.png" alt="" width="100%">
+                    <div class="icon-transparansi col-12 col-md-6">
+                        <img src="./assets/img/Desain tanpa judul-33.png" alt="">
                     </div>
-                    <div class="col text-col">
-                        <div class="text-content">
-                            <h3>Transparansi adalah kunci keberhasilan koperasi</h3>
+                    <div class="col-12 col-md-6">
+                        <div class="text-transparansi">
+                            <h4>Transparansi adalah kunci keberhasilan koperasi</h3>
                             <p>Dengan laporan yang lengkap dan terbuka, Anda dapat ikut serta dalam mengawasi kinerja
                                 koperasi</p>
-                            <div class="button-group">
+                            <div class="button-transparansi">
                                 <button class="btn" onclick="showContent('laporan', this)">Laporan</button>
                                 <button class="btn" onclick="showContent('analisis', this)">Analisis</button>
                                 <button class="btn" onclick="showContent('statistik', this)">Statistik</button>
                             </div>
                             <hr>
-                            <div id="content">
+                            <div id="isi">
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+        <footer class="container col-md-10 py-4">
+            <div class="teks-footer mb-4">
+                <p>
+                    Koperasi simpan pinjam, meskipun memberikan banyak manfaat bagi anggotanya, juga memiliki beberapa
+                    risiko yang perlu diperhatikan. Salah satu risiko utama adalah risiko kredit, yaitu potensi gagal bayar
+                    oleh anggota yang meminjam dana. Karena koperasi umumnya memiliki basis anggota yang lebih kecil
+                    dibandingkan lembaga keuangan besar, jika ada banyak anggota yang gagal membayar pinjaman, koperasi
+                    dapat mengalami kesulitan keuangan yang signifikan. Hal ini bisa berdampak pada kemampuan koperasi untuk
+                    memberikan pinjaman baru atau bahkan memenuhi kewajiban terhadap anggota yang menyimpan dana.
+                </p>
+                <p>
+                    Selain itu, koperasi juga menghadapi risiko likuiditas, di mana koperasi mungkin tidak memiliki cukup
+                    dana tunai untuk memenuhi permintaan penarikan simpanan dari anggotanya. Risiko ini dapat terjadi jika
+                    terlalu banyak anggota yang menarik simpanan mereka secara bersamaan, atau jika koperasi telah
+                    menyalurkan sebagian besar dananya dalam bentuk pinjaman jangka panjang. Ketidakmampuan untuk memenuhi
+                    kewajiban likuiditas dapat menyebabkan hilangnya kepercayaan anggota dan berpotensi memperburuk kondisi
+                    keuangan koperasi.
+                </p>
+                <p>
+                    Terakhir, risiko tata kelola juga menjadi ancaman bagi koperasi simpan pinjam. Koperasi sering kali
+                    dikelola oleh pengurus yang dipilih dari kalangan anggota, yang mungkin tidak selalu memiliki pengalaman
+                    atau pengetahuan yang memadai dalam manajemen keuangan atau operasional. Pengelolaan yang tidak efektif
+                    atau kurangnya transparansi dalam pengambilan keputusan dapat menyebabkan kesalahan dalam pengelolaan
+                    dana, yang pada akhirnya merugikan seluruh anggota. Oleh karena itu, tata kelola yang baik dan
+                    profesional sangat penting untuk meminimalkan risiko ini.
+                </p>
+            </div>
+    
+            <div class="icon-footer row mb-4">
+                <div class="col-12 col-md-6 d-flex align-items-center">
+                    <a href="#" class="social-media bi bi-youtube mx-2" style="font-size: 25px; color: black;"></a>
+                    <a href="#" class="social-media bi bi-facebook mx-2" style="font-size: 25px; color: black;"></a>
+                    <a href="#" class="social-media bi bi-instagram mx-2" style="font-size: 25px; color: black;"></a>
+                    <a href="#" class="social-media bi bi-x mx-2" style="font-size: 25px; color: black;"></a>
+                    <a href="#" class="social-media bi bi-linkedin mx-2" style="font-size: 25px; color: black;"></a>
+                </div>
+                <div class="col-12 col-md-6 d-flex justify-content-end">
+                    <p class="bi bi-geo-alt me-3"> Find the Nearest Store</p>
+                    <p class="bi bi-envelope"> Subscribe to the Newsletter</p>
+                </div>
+            </div>
+            <hr>
+            <div class="tag">
+                <div class="row">
+                    <div class="col-md-3 mb-3">
+                        <h5 class="footer-title">Payment Solution</h5>
+                        <ul id="payment-solution" class="list-unstyled collapse d-md-block">
+                            <li></li>
+                            <li>Payment API</li>
+                            <li>Point of Sales</li>
+                            <li>DANA Business</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <h5 class="footer-title">Business Services</h5>
+                        <ul id="business-services" class="list-unstyled collapse d-md-block">
+                            <li>Business Loans</li>
+                            <li>Investment Options</li>
+                            <li>Member Services</li>
+                            <li>Consulting</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <h5 class="footer-title">Resources</h5>
+                        <ul id="resources" class="list-unstyled collapse d-md-block">
+                            <li>Help Center</li>
+                            <li>Community Forum</li>
+                            <li>Blog</li>
+                            <li>Case Studies</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <h5 class="footer-title">Company</h5>
+                        <ul id="company" class="list-unstyled collapse d-md-block">
+                            <li>About Us</li>
+                            <li>Our Team</li>
+                            <li>Careers</li>
+                            <li>Contact</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </div>
-    <footer class="container col-md-10 py-4">
-        <div class="teks-footer mb-4">
-            <p>
-                Koperasi simpan pinjam, meskipun memberikan banyak manfaat bagi anggotanya, juga memiliki beberapa
-                risiko yang perlu diperhatikan. Salah satu risiko utama adalah risiko kredit, yaitu potensi gagal bayar
-                oleh anggota yang meminjam dana. Karena koperasi umumnya memiliki basis anggota yang lebih kecil
-                dibandingkan lembaga keuangan besar, jika ada banyak anggota yang gagal membayar pinjaman, koperasi
-                dapat mengalami kesulitan keuangan yang signifikan. Hal ini bisa berdampak pada kemampuan koperasi untuk
-                memberikan pinjaman baru atau bahkan memenuhi kewajiban terhadap anggota yang menyimpan dana.
-            </p>
-            <p>
-                Selain itu, koperasi juga menghadapi risiko likuiditas, di mana koperasi mungkin tidak memiliki cukup
-                dana tunai untuk memenuhi permintaan penarikan simpanan dari anggotanya. Risiko ini dapat terjadi jika
-                terlalu banyak anggota yang menarik simpanan mereka secara bersamaan, atau jika koperasi telah
-                menyalurkan sebagian besar dananya dalam bentuk pinjaman jangka panjang. Ketidakmampuan untuk memenuhi
-                kewajiban likuiditas dapat menyebabkan hilangnya kepercayaan anggota dan berpotensi memperburuk kondisi
-                keuangan koperasi.
-            </p>
-            <p>
-                Terakhir, risiko tata kelola juga menjadi ancaman bagi koperasi simpan pinjam. Koperasi sering kali
-                dikelola oleh pengurus yang dipilih dari kalangan anggota, yang mungkin tidak selalu memiliki pengalaman
-                atau pengetahuan yang memadai dalam manajemen keuangan atau operasional. Pengelolaan yang tidak efektif
-                atau kurangnya transparansi dalam pengambilan keputusan dapat menyebabkan kesalahan dalam pengelolaan
-                dana, yang pada akhirnya merugikan seluruh anggota. Oleh karena itu, tata kelola yang baik dan
-                profesional sangat penting untuk meminimalkan risiko ini.
-            </p>
-        </div>
-
-        <div class="icon-footer row mb-4">
-            <div class="col-12 col-md-6 d-flex align-items-center">
-                <a href="#" class="social-media bi bi-youtube mx-2" style="font-size: 25px; color: black;"></a>
-                <a href="#" class="social-media bi bi-facebook mx-2" style="font-size: 25px; color: black;"></a>
-                <a href="#" class="social-media bi bi-instagram mx-2" style="font-size: 25px; color: black;"></a>
-                <a href="#" class="social-media bi bi-x mx-2" style="font-size: 25px; color: black;"></a>
-                <a href="#" class="social-media bi bi-linkedin mx-2" style="font-size: 25px; color: black;"></a>
-            </div>
-            <div class="col-12 col-md-6 d-flex justify-content-end">
-                <p class="bi bi-geo-alt me-3"> Find the Nearest Store</p>
-                <p class="bi bi-envelope"> Subscribe to the Newsletter</p>
-            </div>
-        </div>
-        <hr>
-        <div class="tag">
-            <div class="row">
-                <div class="col-md-3 mb-3">
-                    <h5 class="footer-title">Payment Solution</h5>
-                    <ul id="payment-solution" class="list-unstyled collapse d-md-block">
-                        <li>Payment Gateway</li>
-                        <li>Payment API</li>
-                        <li>Point of Sales</li>
-                        <li>DANA Business</li>
-                    </ul>
-                </div>
-                <div class="col-md-3 mb-3">
-                    <h5 class="footer-title">Business Services</h5>
-                    <ul id="business-services" class="list-unstyled collapse d-md-block">
-                        <li>Business Loans</li>
-                        <li>Investment Options</li>
-                        <li>Member Services</li>
-                        <li>Consulting</li>
-                    </ul>
-                </div>
-                <div class="col-md-3 mb-3">
-                    <h5 class="footer-title">Resources</h5>
-                    <ul id="resources" class="list-unstyled collapse d-md-block">
-                        <li>Help Center</li>
-                        <li>Community Forum</li>
-                        <li>Blog</li>
-                        <li>Case Studies</li>
-                    </ul>
-                </div>
-                <div class="col-md-3 mb-3">
-                    <h5 class="footer-title">Company</h5>
-                    <ul id="company" class="list-unstyled collapse d-md-block">
-                        <li>About Us</li>
-                        <li>Our Team</li>
-                        <li>Careers</li>
-                        <li>Contact</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
     <script src="./assets/js/script.js"></script>
 </body>
