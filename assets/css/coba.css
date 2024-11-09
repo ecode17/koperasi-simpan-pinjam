@@ -51,6 +51,10 @@
         background: white !important;
     }
 
+    .text-banner{
+        width: 100% !important;
+    }
+
     .item-kelola-koperasi {
         flex-direction: column;
     }
@@ -147,11 +151,15 @@
     bottom: 0;
     left: 0;
     height: 100%;
-    background: linear-gradient(to right, rgb(255, 255, 255, 0.9) 60%, rgb(255, 255, 255, 0) 100%);
+    background: linear-gradient(to right, rgb(255, 255, 255, 0.9) 40%, rgb(255, 255, 255, 0) 60%);
     z-index: 1;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.text-banner{
+    width: 50%;
 }
 
 .judul{
@@ -212,6 +220,8 @@
 
 .aman-dan-terpercaya img{
     width: 80%;
+    border-radius: 60px 30px 60px 30px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
 }
 
 .text-aman-dan-terpercaya{
@@ -472,6 +482,7 @@ footer{
 
 .text-paket li::before {
     content: "✅";
+    padding: 10px;
     left: 0;
 }
 
