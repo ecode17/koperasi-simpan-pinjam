@@ -111,6 +111,15 @@
     .button-transparansi .btn {
         padding: 10px 15px !important;
     }
+
+    .text-banner h2{
+        padding-bottom: 0px !important;
+    }
+    
+    .text-banner p{
+        
+        padding-bottom: 0px !important;
+    }
 }
 
 .navbar{
@@ -156,6 +165,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.text-banner h2{
+    padding-bottom: 20px;
+}
+
+.text-banner p{
+
+    padding-bottom: 20px;
 }
 
 .text-banner{
