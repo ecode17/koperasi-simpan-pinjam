@@ -132,18 +132,8 @@
     .link-footer{
         font-size: 8px !important;
     }
-
-    .item-solusi-akutansi-kanan{
-        display: flex;
-        justify-content: center !important;
-    }
-
-    .item-solusi-akutansi-kiri{
-        display: flex;
-        justify-content: center !important;
-    }
-
-    .card-kelola-koperasi {
+    
+    .card-solusi-akutansi{
         width: 280px !important;
     }
 }
