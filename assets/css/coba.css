@@ -136,6 +136,10 @@
     .card-solusi-akutansi{
         width: 280px !important;
     }
+
+    .item-solusi-akutansi{
+        height: 250px !important;
+    }
 }
 
 @media (max-width: 1267px) {
