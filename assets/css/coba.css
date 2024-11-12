@@ -53,6 +53,25 @@
     }
 }
 
+@media (max-width: 479px) {
+    .item-solusi-akutansi-kiri{
+        display: flex;
+        justify-content: center !important;
+    }
+
+    .item-solusi-akutansi-kanan{
+        display: flex;
+        justify-content: center !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .card-solusi-akutansi{
+        width: 200px !important;
+        height: 50px !important;
+    }
+}
+
 @media (max-width: 768px) {
     .banner-text{
         max-height: 30% !important;
@@ -132,18 +151,24 @@
     .link-footer{
         font-size: 8px !important;
     }
-    
-    .card-solusi-akutansi{
-        width: 280px !important;
-    }
 
     .item-solusi-akutansi{
-        height: 250px !important;
+        width: 101%;
     }
 }
 
-@media (max-width: 1267px) {
-    .item-solusi-akutansi-kanan{
+@media (max-width: 1282px) {
+
+    .solusi-akutansi{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .item-solusi-akutansi{
+        width: 101%;
+    }
+    /* .item-solusi-akutansi-kanan{
         display: flex;
         justify-content: center !important;
     }
@@ -151,7 +176,7 @@
     .item-solusi-akutansi-kiri{
         display: flex;
         justify-content: center !important;
-    }
+    } */
 }
 
 .navbar{
@@ -353,7 +378,7 @@
     border-radius: 1000px;
 }
 
-.solusi-akutansi{
+/* .solusi-akutansi{
     background: #127369;
     border-radius: 5px;
     overflow: hidden;
@@ -434,6 +459,62 @@
     100% {
         transform: translateY(-480%);
     }
+} */
+
+.solusi-akutansi{
+    background-color: #127369;
+    padding: 20px;
+}
+
+.icon-solusi-akutansi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-solusi-akutansi img{
+    width: 100%;
+}
+
+.card-solusi-akutansi{
+    position: relative;
+    background: white;
+    height: 100px;
+    width: 280px;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.card-solusi-akutansi img{
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.card-solusi-akutansi p{
+    z-index: 2;
+}
+
+.card-solusi-akutansi::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, white 50%, rgb(255, 255, 255, 0) 100%);
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.item-solusi-akutansi-kanan{
+    display: flex;
+    justify-content: flex-end;
 }
 
 .section-transparansi{
