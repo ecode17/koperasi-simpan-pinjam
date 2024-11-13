@@ -499,6 +499,8 @@
 
 .card-solusi-akutansi p{
     z-index: 2;
+    font-weight: 500;
+    width: 60%;
 }
 
 .card-solusi-akutansi::after{
