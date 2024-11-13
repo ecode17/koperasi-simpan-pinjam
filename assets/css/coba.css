@@ -53,7 +53,12 @@
     }
 }
 
-@media (max-width: 479px) {
+
+@media (max-width: 767px) {
+    .card-solusi-akutansi{
+        width: 100% !important;
+        height: 50px !important;
+    }
     .item-solusi-akutansi-kiri{
         display: flex;
         justify-content: center !important;
@@ -62,17 +67,6 @@
     .item-solusi-akutansi-kanan{
         display: flex;
         justify-content: center !important;
-    }
-
-    .card-solusi-akutansi{
-        width: 300px !important;
-    }
-}
-
-@media (max-width: 767px) {
-    .card-solusi-akutansi{
-        width: 200px !important;
-        height: 50px !important;
     }
 }
 
@@ -495,6 +489,7 @@
 }
 
 .card-solusi-akutansi img{
+    width: 50%;
     height: 100%;
     object-fit: cover;
     position: absolute;
